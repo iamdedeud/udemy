@@ -115,7 +115,7 @@ header .spanSub2 {
   align-items: center;
 }
 .left-and-right-content {
-  background-image: url("/images/bicycle.jpeg");
+  background-image: url("../images/bicycle.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #f7f9fb;
