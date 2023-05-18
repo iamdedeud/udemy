@@ -1,0 +1,190 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-weight: 600;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container-content {
+  width: 100%;
+  /* border: 10px solid green; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+header {
+  width: 100%;
+  height: 20vh;
+  /* border: 1px solid red; */
+  box-shadow: 0px 0px 15px 0px gray;
+}
+.header1 {
+  width: 100%;
+  height: 65%;
+  border-bottom: 2px solid lightgray;
+  /* border: 2px solid pink; */
+  display: flex;
+  justify-content: center;
+}
+
+.header1 input {
+  height: 50px;
+  border-radius: 30px;
+  background-color: #f8f9fb;
+}
+.header1-content {
+  /* border: 4px solid blue; */
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input.nosubmit {
+  width: 600px;
+  /* width: 260px; */
+  border: 1px solid #555;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background: #f7f9fb
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 13px center;
+}
+.header1 input::placeholder {
+  font-size: 18px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+header i {
+  font-size: 22px;
+  font-weight: bold;
+}
+header .span1 {
+  background-color: black;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* display: flex; */
+  display: flex;
+  justify-content: end;
+}
+.spanSub1 div {
+  height: 100%;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 12px;
+}
+header .spanSub2 {
+  background-color: purple;
+  width: 30px;
+  height: 12px;
+  border-radius: 50%;
+}
+.header2 {
+  width: 100%;
+  height: 35%;
+  /* border-bottom:2px solid gray; */
+  /* border: 2px solid pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header2-content {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+.left-and-right {
+  /* border: 2px solid red; */
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-and-right-content {
+  background-image: url("/images/bicycle.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f7f9fb;
+  height: 95%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+.left-and-right-content img {
+  height: 100%;
+}
+.left-and-right h1 {
+  font-size: 33px;
+}
+.left-and-right p {
+  font-size: 19px;
+  line-height: 32px;
+}
+
+.left-holder {
+  width: 50%;
+  height: 85%;
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 0 80px;
+  align-items: center;
+}
+.left {
+  /* border: 2px solid red; */
+  background-color: white;
+  box-shadow: 5px 5px 15px 5px gray;
+  width: 65%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.right {
+  /* border: 2px solid red; */
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  /* border: 1px solid red; */
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.footer-content {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer h1 {
+  font-size: 38px;
+}
+footer a {
+  /* font-size: 21px; */
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid #8b0887;
+  padding: 0;
+}
